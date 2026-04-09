@@ -44,7 +44,7 @@ record(1,:) = [time, reshape(stoch_pop',1,9)];
 t_index = t_index + 1;
 rec_i = 1;
 
-%% Gillespie Loop
+% Gillespie Loop
 for step = 1:maxsteps
     if time >= sim_time
         break
